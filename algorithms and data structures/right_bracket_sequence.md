@@ -5,10 +5,31 @@
 2. Если A – правильная скобочная последовательность, то (A), [A] и {A} – правильные скобочные последовательности.
 3. Если A и B – правильные скобочные последовательности, то AB – правильная скобочная последовательность.
 
-Функция возвращает true или false.
+Функция возвращает True или False.
+## Входные и выходные данные
+<div style="display: flex; flex-direction: row;">
+<div>
+
+| Input:|
+|---|
+| { { } { ( { [ [ ] ] } ) } |
+|Output:|
+| True |
+
+</div>
+<div>
+
+| Input:|
+|---|
+| { [ } ] |
+|Output:|
+| False |
+
+</div>
+</div>
 
 ## Решение
-```
+```python
 def right_bracket_sequence(bracket_sequence):
     stack = []
     balanced = True
@@ -27,7 +48,7 @@ def right_bracket_sequence(bracket_sequence):
     return True if balanced and len(stack) == 0 else False
 ```
 ## Примечание 
-В качестве структуры данных использовался стэк. Сложность O(n).
+В качестве структуры данных использовался стек. Сложность алгоритма O(n).
 
 
 
