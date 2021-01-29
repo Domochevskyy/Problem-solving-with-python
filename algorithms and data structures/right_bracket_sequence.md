@@ -29,6 +29,8 @@
 </div>
 
 ## Решение
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def right_bracket_sequence(bracket_sequence):
     stack = []
@@ -47,6 +49,8 @@ def right_bracket_sequence(bracket_sequence):
         i += 1
     return True if balanced and len(stack) == 0 else False
 ```
+</details>
+
 ## Примечание 
 В качестве структуры данных использовался стек. Сложность алгоритма O(n).
 
