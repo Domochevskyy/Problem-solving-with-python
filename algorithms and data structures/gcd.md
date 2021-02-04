@@ -23,6 +23,8 @@
 </div>
 
 ## Решение №1 
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def gcd(a, b):
     if a == 0:
@@ -42,7 +44,11 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+</details>
+
 ## Решение №2
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def gcd(a, b)
 	while b:
@@ -58,3 +64,4 @@ def gcd(a, b)
 if __name__ == "__main__":
     main()
 ```
+</details>

@@ -7,7 +7,10 @@
 |3|
 |Output:|
 |2|
+
 ## Решение
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def fib(n):
     f1, f2 = 0, 1
@@ -24,5 +27,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+</details>
+
 ## Примечание
 Если а и b - это последние цифры чисел F<sub>i</sub> и F<sub>i+1</sub>, то (a+b)%10 - последняя цифра F<sub>i+2</sub> числа.

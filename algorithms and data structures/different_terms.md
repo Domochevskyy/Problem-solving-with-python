@@ -10,6 +10,8 @@
 |5|
 |1 2 3 4 5|
 ## Решение
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def main():
     n = int(input())
@@ -30,3 +32,4 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+</details>

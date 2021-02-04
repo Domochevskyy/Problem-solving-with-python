@@ -7,6 +7,8 @@
 |Output:|
 | 2 |
 ## Решение №1
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def fib(n):
     if n == 0:
@@ -23,8 +25,12 @@ def main():
 
 if __name__ == "__main__":
     main()
-``` 
+```
+</details>
+
 ## Решение №2
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def fib(n):
     f1, f2 = 0, 1
@@ -41,6 +47,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+</details>
 
 ## Пояснение
 Можно показать, что временная сложность первого алгоритма равна O(2<sup>n</sup>), а второго - O(n).

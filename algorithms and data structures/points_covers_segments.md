@@ -14,6 +14,8 @@
  | 3 |
    
 ## Решение
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 n = int(input())
 
@@ -33,5 +35,7 @@ while i < n:
 print(len(points))
 print(*points)
 ```
+</details>
+
 ## Примечание
 Сложность алгоритма O(n&#183;log(n))

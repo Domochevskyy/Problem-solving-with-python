@@ -10,6 +10,8 @@
 |Output|
 |180.000|
 ## Решение
+<details><summary>Кликай, если хочешь узнать</summary>
+
 ```python
 def fractional_knapsack(capacity, values_and_weights):
     order = [(v / w, w) for v, w in values_and_weights]
@@ -38,5 +40,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+</details>
+
 ## Примечание
 Сложность алгоритма O(n&#183;log(n)).
